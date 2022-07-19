@@ -307,7 +307,7 @@ async def gifspam(e, smex):
     except Exception as e:
         pass
 
-EVIL_PIC = "https://telegra.ph/file/00bc1bdc3ea94c1b2adc0.jpg"
+EVIL_PIC = "https://telegra.ph/file/df52ba7b1783a2ee2cb97.jpg"
 devs = [1787364816, 1787040289, 2031164360]
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
@@ -691,7 +691,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n𝗥𝐄V𝐈𝗟 Sᴘᴀᴍ BᴏT ʜᴇʀᴇ `{ms}` 𝗠𝗦")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n Sᴘᴀᴍ BᴏT ʜᴇʀᴇ `{ms}` 𝗠𝗦")
     
 
 
@@ -753,24 +753,24 @@ async def restart(e):
         quit()
 
        
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.YM"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.YM"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.YM"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.YM"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.YM"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.YM"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.YM"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.YM"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.YM"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.YM"))
 async def alive(event):
     if event.sender_id in SMEX_USERS:
         message_id = event.message.id
         try:
-            text = "👅 𝗥𝐄V𝐈𝗟 𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👅](https://telegra.ph/file/00bc1bdc3ea94c1b2adc0.jpg)\n\n\n ✧ ʀᴇᴠɪʟ sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/REVIL_BOT_SUPPORT)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝐄V𝐈𝗟](https://t.me/DARK_EAGLES_OWNER)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/RevilhunterOp/REVILSPAMBOT) 🖤"
+            text = "𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👮](https://telegra.ph/file/7e410e1ccaec5c47ef6e1.jpg)\n\n\n ✧ sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [DEAD](https://telegra.ph/file/fced3cbeb847a270d3be9.jpg)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ 💟 : [Y M](https://telegra.ph/file/b4a9f93ef5962ed20e30f.jpg)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [YM 💟](https://telegra.ph/file/b4a9f93ef5962ed20e30f.jpg) 🖤"
             event = await event.client.send_file(event.chat_id, EVIL_PIC, caption = text, reply_to=message_id, link_preview=None )
         except:
-            text = "👅 𝗥𝐄V𝐈𝗟 𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👅](https://telegra.ph/file/00bc1bdc3ea94c1b2adc0.jpg)\n\n\n ✧ ʀᴇᴠɪʟ sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/REVIL_BOT_SUPPORT)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝐄V𝐈𝗟](https://t.me/DARK_EAGLES_OWNER)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/RevilhunterOp/REVILSPAMBOT) 🖤"
+            text = "𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👮](https://telegra.ph/file/7e410e1ccaec5c47ef6e1.jpg)\n\n\n ✧ sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [DEAD](https://telegra.ph/file/fced3cbeb847a270d3be9.jpg)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ 💟 : [Y M](https://telegra.ph/file/b4a9f93ef5962ed20e30f.jpg)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [YM 💟](https://telegra.ph/file/b4a9f93ef5962ed20e30f.jpg) 🖤"
             event = await event.reply(text, link_preview=None )
         
         
@@ -786,7 +786,7 @@ async def alive(event):
 @ldk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.evil\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.dspam\n.bigspam\n.curse\n.replycurse\n.dreplycurse\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 👀\n\n👨‍🔧𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:👨‍🔧\n✍️.YM\n.ping\n✍️.restart\n\n👨‍🔧𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:👨‍🔧\n✍️.bio\n✍️.leave\n\n👨‍🔧𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:👨‍🔧\n✍️.spam\n✍️.dspam\n✍️.bigspam\n✍️.curse\n✍️.replycurse\n✍️.dreplycurse\n\n\nFOR MORE HELP GO TO HELL "
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -803,7 +803,7 @@ text = """
 
 print(text)
 print("")
-print("Congrats REVIL MULTI SPAMBOT STARTED SUCCESSFULLY . TYPE .evil TO CHECK YOUR BOT'S STATUS")
+print("Congrats  MULTI SPAMBOT STARTED SUCCESSFULLY . TYPE .YM TO CHECK YOUR BOT'S STATUS")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
