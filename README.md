@@ -24,7 +24,7 @@ The Fastest multi spambot of Telegram🤞🤞
 
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Revilhunterop/REVILSPAMBOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/toxichome/REVILSPAMBOT)
 ------------------------------------------------
 
 
